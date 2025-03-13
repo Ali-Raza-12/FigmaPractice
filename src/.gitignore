@@ -1,0 +1,84 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directory
+dist/
+build/
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+debug.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Parcel-bundler cache
+.cache
+
+# Miscellaneous
+*.lock
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+.npmrc
+
+# Coverage directory
+coverage/
+
+# Firebase
+.firebase/
+firestore.rules.bak
+
+# Typescript
+*.tsbuildinfo
+
+# Public folder generated files (if using CRA)
+public/*.hot-update.js
+public/*.hot-update.json
+public/assets/
+
+# Next.js (if applicable)
+.next/
+out/
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Jest
+jest/
+jest.config.js
+jest.setup.js
