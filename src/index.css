@@ -1,3 +1,41 @@
+/* ✅ First, import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap');
+
+/* ✅ Then, include Tailwind styles */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* ✅ Apply the font globally */
+body {
+    @apply font-jakarta;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #101010;
+}
+   
+
+.slick-slider.slick-initialized{
+    position: relative;
+}
+
+.slick-prev, .slick-next{
+    position: absolute;
+    z-index: 999;
+    right: 0 !important;
+    top: 106% !important;
+    bottom: 0 !important;
+}
+.slick-prev{
+    left: 95% !important;
+}
+
+.slick-dots{
+    width: fit-content !important;
+}
+
+
+.slick-slide{
+    width: fit-content !important;
+}

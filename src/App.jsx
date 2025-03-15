@@ -10,7 +10,7 @@ function App() {
 
         <Sidebar />
 
-        <div className="flex-1 bg-[#1F2121] rounded-[16px]">
+        <div className="w-[100%] overflow-x-hidden  bg-[#1F2121] rounded-[16px]">
           <Routes>
             <Route path="/" element={<Brands />} />
           </Routes>
